@@ -1,0 +1,82 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #ece9e6, #ffffff);
+  padding: 20px;
+  text-align: center;
+}
+
+.header {
+  margin-top: 50px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #777;
+  margin-top: 10px;
+}
+
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.content p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.footer {
+  margin-bottom: 50px;
+}
+
+.upload-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.upload-button:hover {
+  background-color: #0056b3;
+}
+.logout-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
+
+.logout-button:focus {
+  outline: none;
+}
